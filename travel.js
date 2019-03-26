@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Travel from './travels';
 
 class Travel extends Component {
   render(){
@@ -8,10 +9,9 @@ class Travel extends Component {
         <h2>my country is: {this.props.country} </h2>
         <img src= {this.props.image}></img>
         <h3>distance: {this.props.distance}  </h3>
-      </div>
+       </div>
     )
   }
 }
-
 
 export default Travel;
